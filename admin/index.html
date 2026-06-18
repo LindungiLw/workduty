@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin - Work Duty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="container" style="max-width: 400px;">
+        <div class="header">
+            <h1>Admin Login</h1>
+            <p>Silakan masuk untuk mengatur jadwal</p>
+        </div>
+
+        <div id="errorContainer" class="error-container hidden" style="margin-bottom: 20px;">
+            <p id="errorMessage">ID atau password salah!</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="password">PIN Akses Admin</label>
+                <input type="password" id="password" required placeholder="Masukkan PIN...">
+            </div>
+            <button type="submit" class="btn-primary" id="loginBtn">Login</button>
+        </form>
+        
+    <!-- App Scripts -->
+    <script src="../assets/js/auth.js"></script>
+</body>
+</html>
