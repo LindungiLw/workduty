@@ -165,7 +165,7 @@ firebase emulators:start --only hosting
 Lalu buka (ganti `8080` dengan `5000` jika memakai Firebase CLI):
 
 - Halaman siswa → http://localhost:8080/
-- Dashboard admin → http://localhost:8080/admin/
+
 
 <details>
 <summary>Opsional: debug lewat VS Code + Chrome</summary>
